@@ -1,0 +1,12 @@
+body {
+    height: 100%;
+    background-color: powderblue;
+  }
+#container{
+    height: 20%;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.205);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
