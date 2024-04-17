@@ -1,3 +1,6 @@
+
+
+
 print('Bem vindo ao sistema de agendamento de consultas')
 print('Selecione uma das opções abaixo:')
 print()
