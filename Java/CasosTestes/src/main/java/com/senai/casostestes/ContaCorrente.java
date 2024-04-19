@@ -7,7 +7,7 @@ public class ContaCorrente {
     public ContaCorrente (String nome,Double saldo){
         
         this.nome = nome;
-        this.saldo = saldo;       ffff
+        this.saldo = saldo;     
     }
     public void setNome(String nome) {
         this.nome = nome;

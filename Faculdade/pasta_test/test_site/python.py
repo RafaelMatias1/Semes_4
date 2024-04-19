@@ -9,14 +9,13 @@ def login():
 @app.route('/login', methods=['POST'])
 def do_login():
     username = request.form['username']
-    password = request.form['password']
+    password = request.form['password'] 
 
     if username == 'admin' and password == 'admin':
         return redirect(url_for('welcome'))
     else:
         return redirect(url_for('login'))
 
-# Página de boas-vindas
 @app.route('/welcome')
 def welcome():
     return 'Welcome!'
