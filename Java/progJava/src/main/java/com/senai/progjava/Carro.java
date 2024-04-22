@@ -1,4 +1,7 @@
-package com.mycompany.backjava;
+//package com.mycompany.backjava;
+
+package com.senai.progjava;
+
 
 public class Carro {
 private String nome = null;
