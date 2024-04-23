@@ -1,0 +1,1 @@
+"""4) Faça um programa para imprimir os caracteres de uma string."""

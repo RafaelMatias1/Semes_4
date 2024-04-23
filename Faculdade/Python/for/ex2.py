@@ -1,0 +1,1 @@
+"""2) Faça um programa para imprimir os números de 1 a 10"""

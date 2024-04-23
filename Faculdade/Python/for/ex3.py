@@ -1,0 +1,1 @@
+"""3) Faça um programa para imprimir os elementos de uma lista."""

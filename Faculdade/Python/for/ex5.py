@@ -1,0 +1,1 @@
+"""5) Faça um programa para imprimir os números pares de 0 a 10."""
