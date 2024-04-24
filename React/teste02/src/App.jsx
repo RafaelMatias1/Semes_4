@@ -114,7 +114,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Gerenciador de Receitas</h1>
+      <h1>Confeitaria da Vovó</h1>
 
       <form onSubmit={handleCadastroReceita}>
         <label htmlFor="nome">Nome da Receita:</label>
