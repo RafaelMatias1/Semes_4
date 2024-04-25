@@ -6,10 +6,17 @@ function InfPagamento () {
     <div>
       <div className="container">
         <div className='cima'>
-          
+          <div className='perfil'>
+
+          </div>
         </div>
         <div className='meio'>
+          <div className='local'>
 
+          </div>
+          <div className='historico'>
+
+          </div>
         </div>
 
       </div>
