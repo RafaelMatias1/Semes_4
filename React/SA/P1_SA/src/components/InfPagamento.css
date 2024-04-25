@@ -4,10 +4,16 @@ body, html {
 }
 
 .container {
-  width: 100vw; /* Alterado para 100vw para ocupar toda a largura da viewport */
+  width: 100vw;
   height: 100vh;
   background-color: #A99D98;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.cima{
+
+  width: 100vw;
+  height: 20vh;
+
 }
