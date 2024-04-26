@@ -12,10 +12,10 @@ function InfPagamento () {
         </div>
         <div className='meio'>
           <div className='local'>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className='input'><input placeholder='Nome Completo' className='input1'/><input placeholder='CEP' className='input2'/></div>
+            <div className='input'></div>
+            <div className='input'></div>
+            <div className='input'></div>
           </div>
           <div className='historico'>
 
