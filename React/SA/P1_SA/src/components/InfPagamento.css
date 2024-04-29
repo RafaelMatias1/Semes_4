@@ -48,11 +48,70 @@ body, html {
 .local {
 
   width: 60%;
-  height: 60vh;
+  height: 50vh;
   background-color: #471909;
   border-radius: 50px;
-  margin-top: 2cm;
   margin-right: 1cm;
+
+}
+.input{
+
+  width: 100%;
+  height: 25%;
+
+}
+.input1{
+
+  width: 70%;
+  height: 50%;
+  border-radius: 50px;
+  margin: 1.5%;
+  font-size: large;
+
+}
+.input2{
+
+  width: 20%;
+  height: 50%;
+  border-radius: 50px;
+  margin: 2%;
+  font-size: large;
+
+}
+.input3{
+
+  width: 45%;
+  height: 50%;
+  border-radius: 50px;
+  margin: 2%;
+  font-size: large;
+
+}
+.input4{
+
+  width: 45%;
+  height: 50%;
+  border-radius: 50px;
+  margin: 2%;
+  font-size: large;
+
+}
+.input5{
+
+  width: 20%;
+  height: 50%;
+  border-radius: 50px;
+  margin: 2%;
+  font-size: large;
+
+}
+.input6{
+
+  width: 70%;
+  height: 50%;
+  border-radius: 50px;
+  margin: 2%;
+  font-size: large;
 
 }
 .historico{
@@ -63,26 +122,30 @@ body, html {
   border-radius: 25px;
   margin-top: 5cm;
 }
-.input{
+.compra{
 
   width: 100%;
-  height: 25%;
+  height: 80%;
+  overflow:auto;
+
+}
+.produto{
+
+  width: 94%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
 
 }
-.input1{
+.botao_compra{
 
-  width: 70%;
-  height: 40%;
-  border-radius: 50px;
-  margin: 2%;
-
-}
-.input2{
-
-  width: 20%;
-  height: 40%;
-  border-radius: 50px;
-  margin: 2%;
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #471909;
 
 }
