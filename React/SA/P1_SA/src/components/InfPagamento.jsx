@@ -2,7 +2,7 @@ import './InfPagamento.css';
 
 function InfPagamento () {
 
-  return (
+  return (  
     <div>
       <div className="container">
         <div className='cima'>
@@ -39,9 +39,10 @@ function InfPagamento () {
               <div className='produto'>
 
               </div>
+              
             </div>
-            <div className='botao_compra'>
-              <div className='buton'>
+            <div className='botao_compra' >
+              <div className='buton' /*onClick={alert("")}*/ name="signUp">
               </div>
             </div>
           </div>
