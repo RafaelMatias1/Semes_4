@@ -40,7 +40,7 @@ function InfPagamento () {
             <div className='compra'>
               <div className='produto'>
                 <div className='esquerda'>
-                  Imagem
+                  imagem
                 </div>
                 <div className='direita'>
                   <div className='d_cima'>
