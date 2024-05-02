@@ -2,6 +2,8 @@ import './InfPagamento.css';
 
 function InfPagamento () {
 
+  
+
   return (  
     <div>
       <div className="container">
@@ -37,13 +39,26 @@ function InfPagamento () {
           <div className='historico'>
             <div className='compra'>
               <div className='produto'>
-
-              </div>
-              
+                <div className='esquerda'>
+                  Imagem
+                </div>
+                <div className='direita'>
+                  <div className='d_cima'>
+                    informação
+                  </div>
+                  <div className='d_baixo'>
+                    <div className='d_b_esquerda'>
+                      preço
+                    </div>
+                    <div className='d_b_direita'>
+                      remover
+                    </div>
+                  </div>
+                </div>
+              </div>           
             </div>
-            <div className='botao_compra' >
-              <div className='buton' /*onClick={alert("")}*/ name="signUp">
-              </div>
+            <div className='botao'>
+              <button className='buton'>Prosseguir</button>
             </div>
           </div>
         </div>

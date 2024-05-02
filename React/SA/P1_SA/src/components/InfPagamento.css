@@ -13,7 +13,7 @@ body, html {
 .cima{
 
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   background-color: #471909;
   position: fixed;
   top: 0;
@@ -117,7 +117,7 @@ body, html {
 .historico{
 
   width: 35%;
-  height: 75vh;
+  height: 70vh;
   background-color: #471909;
   border-radius: 25px;
   margin-top: 5cm;
@@ -128,38 +128,78 @@ body, html {
 }
 .compra{
 
-  width: 100%;
+  width:90%;
   height: 80%;
-  overflow:hidden;
-  display: flex;
-  justify-content: center;
+  overflow: auto;
+  flex-direction: column;
 
 }
 .produto{
 
-  width: 93%;
-  height: 100%;
-  margin-top: 0.5cm;
+  width:90%;
+  height: 30%;
+  margin: 4%;
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
 
 }
-.botao_compra{
+.esquerda{
 
-  width: 60%;
-  height: 10%;
+  width:40%;
+  height: 100%;
+
+}
+.direita{
+
+  width:60%;
+  height: 100%;
+
+}
+.d_cima{
+
+  width:100%;
+  height: 50%;
+
+}
+.d_baixo{
+
+  width:100%;
+  height: 50%;
   display: flex;
-  margin-top: 0.5cm;
+  position:end;
+
+}
+.d_b_esquerda{
+
+  width:70%;
+  height: 100%;
+
+}
+.d_b_direita{
+
+  width:30%;
+  height: 100%;
+
+}
+.botao{
+
+  width:90%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  
 
 }
 .buton{
 
-  width: 100%;
-  height: 100%;
+  width:90%;
+  height: 50%;
   border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  background-color: #2F0D01;
-
+  background-color: #2F0D01 ;
+  font-size: xx-large;
+  color: #FFB99A;
 
 }
