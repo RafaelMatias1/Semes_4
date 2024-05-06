@@ -1,4 +1,6 @@
 import './InfPagamento.css';
+import imagem_cafe from './imagem/cafe.png'
+import imagem_remover from './imagem/remove.png'
 
 function InfPagamento () {
 
@@ -7,7 +9,7 @@ function InfPagamento () {
   return (  
     <div>
       <div className="container">
-        <div className='cima'>
+        <div className='cima'>  
           <div className='perfil'>
 
           </div>
@@ -40,18 +42,18 @@ function InfPagamento () {
             <div className='compra'>
               <div className='produto'>
                 <div className='esquerda'>
-                  imagem
+                  <img src={imagem_cafe} className='imagem_cafe' /> 
                 </div>
                 <div className='direita'>
                   <div className='d_cima'>
-                    informação
+                    PRÉ TREINO PANIC 450G - ADAPTOGEN SCIENCE (MAÇA VERDE) - Maçã Verde
                   </div>
                   <div className='d_baixo'>
                     <div className='d_b_esquerda'>
-                      preço
+                      R$125,75
                     </div>
                     <div className='d_b_direita'>
-                      remover
+                      <img src={imagem_remover}/>
                     </div>
                   </div>
                 </div>

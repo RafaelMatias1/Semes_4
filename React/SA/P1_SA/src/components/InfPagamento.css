@@ -151,6 +151,12 @@ body, html {
   height: 100%;
 
 }
+.imagem_cafe{
+
+  width:90%;
+  height: 90%;
+
+}
 .direita{
 
   width:60%;
@@ -161,6 +167,7 @@ body, html {
 
   width:100%;
   height: 50%;
+  color: #FFB99A;
 
 }
 .d_baixo{
@@ -175,6 +182,7 @@ body, html {
 
   width:70%;
   height: 100%;
+  color: #FFB99A;
 
 }
 .d_b_direita{
