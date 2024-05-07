@@ -39,20 +39,5 @@ function Padaria() {
     }
   ]);
 
-  const handle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
