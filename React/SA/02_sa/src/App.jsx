@@ -1,11 +1,11 @@
 import React from 'react';
-import mesa from './components/mesa';
+import Amesa from './components/mesa';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <mesa />
+      <Amesa/>
     </div>
   );
 }

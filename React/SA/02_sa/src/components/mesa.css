@@ -2,12 +2,40 @@ body, html {
     margin: 0;
     padding: 0;
 }
-  
 .container {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #FFE2D6;
+}
+.direita{
+
+    width: 40%;
+    height: 70%;
+    margin: 2%;
+    border-radius: 40px;
+    background: linear-gradient(to bottom right, #2F0D01, #692a12);
+
+}
+.esquerda{
+
+    width: 40%;
+    height: 70%;
+    margin: 2%;
+    background-color: white;
+
+}
+.carousel-container {
+    width: 300px;
+    overflow: hidden;
+}
+  
+.carousel-slide {
+    display: none;
+}
+  
+.carousel-slide img {
+    width: 100%;
 }
