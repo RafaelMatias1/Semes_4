@@ -30,12 +30,11 @@ public class Vendas {
                fetch=FetchType.LAZY,
                orphanRemoval = true,
                cascade = CascadeType.ALL)
-    @JsonManagedReference
-    //@JsonBackReference
+    @JsonManagedReference(value="vendas-produto")
     private Set<VendasProduto> vendasProduto;     
 
     @ManyToOne
-    @JsonBackReference
+    @JsonBackReference(value="cliente-vendas")
     private Cliente cliente;
 
     public void setVendasProduto(Set<VendasProduto> vendasProduto) {

@@ -21,12 +21,12 @@ public class VendasProduto {
     private Long IDVendasProduto;
     
     @ManyToOne
-    @JsonBackReference
+    @JsonBackReference(value="vendas-produto")
     private Vendas vendas;
         
     
    @OneToOne
-    //@JsonManagedReference
+    @JsonBackReference(value="produto-vendasProduto")
     private Produto produto;
     
     @Column(nullable = false)

@@ -35,7 +35,7 @@ public class Cliente {
                orphanRemoval = true,
                cascade = CascadeType.ALL)
     @Column(nullable = true)
-    @JsonManagedReference
+    @JsonManagedReference(value="cliente-vendas")
     private Set<Vendas> vendas;
         
     public Long getIDCliente() {

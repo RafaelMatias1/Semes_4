@@ -1,6 +1,7 @@
 
 package com.senai.apirest.entidades;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,6 +29,7 @@ public class Produto {
     private Double valorProduto;
     
     @OneToOne
+    @JsonManagedReference(value="produto-vendasProduto")
     private VendasProduto vendasProduto;
 
     public void setVendasProduto(VendasProduto vendasProduto) {

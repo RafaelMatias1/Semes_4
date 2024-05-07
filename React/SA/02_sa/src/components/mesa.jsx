@@ -7,14 +7,13 @@ import imagem_combo3 from './imagem/combo03.png'
 function mesa () {
 
   const funcaoBotao = () => {
-    
   };
 
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setIndex(prevIndex => (prevIndex + 1) % 3); // Assumindo que há 3 imagens
+      setIndex(prevIndex => (prevIndex + 1) % 3);
     }, 3000);
 
     return () => {
