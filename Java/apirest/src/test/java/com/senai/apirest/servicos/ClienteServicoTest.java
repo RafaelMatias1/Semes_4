@@ -22,7 +22,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  *
- * @author alessandro_bento
+ * @author Rafel_Matias
  */
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)

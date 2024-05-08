@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author alessandro_bento
+ * @author Rafel_Matias
  */
 @RestController
 public class ProdutoControlador {

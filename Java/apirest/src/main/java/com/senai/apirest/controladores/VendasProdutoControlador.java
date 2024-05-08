@@ -6,7 +6,7 @@ package com.senai.apirest.controladores;
 
 /**
  *
- * @author alessandro_bento
+ * @author Rafel_Matias
  */
 public class VendasProdutoControlador {
     

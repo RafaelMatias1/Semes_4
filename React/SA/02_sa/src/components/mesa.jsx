@@ -6,7 +6,20 @@ import imagem_combo3 from './imagem/combo03.png'
 
 function mesa () {
 
-  const funcaoBotao = () => {
+  const Menu = () => {
+
+    alert("abrir menu")
+
+  };
+  const Combos = () => {
+
+    alert("abrir Combos")
+
+  };
+  const Comanda = () => {
+
+    alert("abrir Comanda")
+
   };
 
   const [index, setIndex] = useState(0);
@@ -24,9 +37,9 @@ function mesa () {
   return (  
     <div className='container'>
       <div className='esquerda'>
-        <button onClick={funcaoBotao} className='botao'>Menu</button>
-        <button onClick={funcaoBotao} className='botao'>Combos</button>
-        <button onClick={funcaoBotao} className='botao'>Comanda</button>
+        <button onClick={Menu} className='botao'>Menu</button>
+        <button onClick={Combos} className='botao'>Combos</button>
+        <button onClick={Comanda} className='botao'>Comanda</button>
       </div>
       <div className='direita'>
 
