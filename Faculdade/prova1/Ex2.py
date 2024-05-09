@@ -1,7 +1,7 @@
-numeros = [(input("Digite o primeiro número: ")),
-           (input("Digite o segundo número: ")),
-           (input("Digite o terceiro número: "))]
+nome = input("digite o eu nome:")
 
-numeros.sort(reverse=True)
+lestras_escada = ''
 
-print("Números em ordem decrescente:", numeros)
+for letras in nome:
+    lestras_escada += letras
+    print(lestras_escada)
