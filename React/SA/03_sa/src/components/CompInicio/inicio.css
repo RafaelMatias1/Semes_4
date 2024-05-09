@@ -41,6 +41,7 @@ body, html {
 .botao:hover {
     background: linear-gradient(to bottom right, #a87360, #5c443c);
 }
+
 .direita{
 
     width: 40%;

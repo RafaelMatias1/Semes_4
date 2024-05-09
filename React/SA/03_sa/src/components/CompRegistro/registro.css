@@ -61,10 +61,10 @@ body, html {
 
     width: 80%;
     margin: 8px;
-    height: 50%;
+    height: 30%;
     border-radius: 40px;
     background-color: #EDE1D1;
-    font-size: 40px;
+    font-size: 30px;
 
     
 }
@@ -79,13 +79,18 @@ body, html {
     align-items: center;
 
 }
-.botao{
+.botao03{
 
     width: 40%;    
     height: 33%;
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #2F0D01;
+    text-decoration: none;
     border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to bottom right, #FFB99A, #FFE2D6);
 
 }

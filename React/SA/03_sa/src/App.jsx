@@ -4,6 +4,7 @@ import Login from './components/CompLogin//login';
 import Recuperacao from './components/CompRecuperacao/recuperacao';
 import Registro from './components/CompRegistro/registro';
 import Inicio from './components/CompInicio/inicio';
+import Home from './components/HOME - COLABORADOR/home';
 
 import './App.css'; 
 
@@ -12,9 +13,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Login/>}/>
-        <Route path="/Inicio" element={<Inicio/>} />
+        <Route path="/Home" element={<Home/>} />            
         <Route path="/recuperacao" element={<Recuperacao/>} />
         <Route path="/registro" element={<Registro/>} />
+        <Route path="/Inicio" element={<Inicio/>} />    
       </Routes>
     </BrowserRouter>
   );

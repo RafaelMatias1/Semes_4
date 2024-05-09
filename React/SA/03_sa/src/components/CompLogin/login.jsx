@@ -17,11 +17,11 @@ function login () {
             </div>
         </div>
         <div className='m_meio'>
-            <input className='inputs' placeholder='Senha' />
-            <input className='inputs' placeholder='Usuário' />
+            <input className='inputs01' placeholder='Senha' />
+            <input className='inputs01' placeholder='Usuário' />
         </div>
         <div className='m_baixo'>
-            <Link className='botao' to="/Inicio">Entrar</Link>
+            <Link className='botao01' to="/home">Entrar</Link>
             <Link to="/recuperacao" className='esqueceu'>Esqueceu sua senha?</Link>
         </div>
       </div>

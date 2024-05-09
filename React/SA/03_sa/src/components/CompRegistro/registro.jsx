@@ -22,7 +22,7 @@ function registro () {
             <input className='inputs' placeholder='REPETIR NOVA SENHA' />
         </div>
         <div className='m_baixo'>
-          <Link className='botao' to="/">Registrar Nova Senha</Link>
+          <Link className='botao03' to="/">Registrar Nova Senha</Link>
         </div>
       </div>
     </div>
