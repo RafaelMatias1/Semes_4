@@ -1,26 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './mesa.css';
-import imagem_combo from './imagem/combo.png'
-import imagem_combo2 from './imagem/combo02.png'
-import imagem_combo3 from './imagem/combo03.png'
+import { Link, Outlet } from 'react-router-dom';
+import './inicio.css';
 
-function mesa () {
 
-  const Menu = () => {
-
-    alert("abrir menu")
-
-  };
-  const Combos = () => {
-
-    alert("abrir Combos")
-
-  };
-  const Comanda = () => {
-
-    alert("abrir Comanda")
-
-  };
+function inicio () {
 
   const [index, setIndex] = useState(0);
 
@@ -37,21 +20,21 @@ function mesa () {
   return (  
     <div className='container'>
       <div className='esquerda'>
-        <button onClick={Menu} className='botao'>Menu</button>
-        <button onClick={Combos} className='botao'>Combos</button>
-        <button onClick={Comanda} className='botao'>Comanda</button>
+        <button className='botao'>Menu</button>
+        <button className='botao'>Combos</button>
+        <button className='botao'>Comanda</button>
       </div>
       <div className='direita'>
 
         <div className="carousel-container">
           <div className="carousel-slide" style={{ display: index === 0 ? 'block' : 'none' }}>
-            <img src={imagem_combo} className='imagem_cafe' alt="Combo 1" /> 
+            <img src={'./public/combo.png'} className='imagem_cafe' alt="Combo 1" /> 
           </div>
           <div className="carousel-slide" style={{ display: index === 1 ? 'block' : 'none' }}>
-            <img src={imagem_combo2} className='imagem_cafe' alt="Combo 2" /> 
+            <img src={'./public/combo02.png'} className='imagem_cafe' alt="Combo 2" /> 
           </div>
           <div className="carousel-slide" style={{ display: index === 2 ? 'block' : 'none' }}>
-            <img src={imagem_combo3} className='imagem_cafe' alt="Combo 3" /> 
+            <img src={'./public/combo03.png'} className='imagem_cafe' alt="Combo 3" /> 
           </div>
         </div>
 
@@ -60,4 +43,4 @@ function mesa () {
   )
 }
 
-export default mesa;
+export default inicio;

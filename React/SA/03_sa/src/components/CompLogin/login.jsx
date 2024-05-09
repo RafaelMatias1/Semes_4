@@ -1,19 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import './login.css';
 
 
 function login () {
 
-    const entrar = () => {
-
-        alert("Entrou")
-    
-    };
-    const criar = () => {
-
-        alert("Crie uma nova senha")
-    
-    };
 
   return (  
     <div className='container'>
@@ -31,8 +21,8 @@ function login () {
             <input className='inputs' placeholder='Usuário' />
         </div>
         <div className='m_baixo'>
-            <button onClick={entrar} className='botao'>ENTRAR</button>
-            <a onClick={criar} className='esqueceu'>Esqueceu sua senha?</a>
+            <Link className='botao' to="/Inicio">Entrar</Link>
+            <Link to="/recuperacao" className='esqueceu'>Esqueceu sua senha?</Link>
         </div>
       </div>
     </div>

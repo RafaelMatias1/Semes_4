@@ -84,13 +84,19 @@ body, html {
     width: 20%;    
     height: 33%;
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #2F0D01;
+    text-decoration: none;
     border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to bottom right, #FFB99A, #FFE2D6);
 
 }
 .esqueceu{
 
     color: #DC9B7F;
+    text-decoration: none;
 
 }
