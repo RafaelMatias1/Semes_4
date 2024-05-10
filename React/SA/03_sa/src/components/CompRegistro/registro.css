@@ -94,6 +94,13 @@ body, html {
     background: linear-gradient(to bottom right, #FFB99A, #FFE2D6);
 
 }
+.botao03:active {
+    background: linear-gradient(to bottom right, #a87360, #5c443c);
+}
+
+.botao03:hover {
+    background: linear-gradient(to bottom right, #a87360, #5c443c);
+}
 .esqueceu{
 
     color: #DC9B7F;
