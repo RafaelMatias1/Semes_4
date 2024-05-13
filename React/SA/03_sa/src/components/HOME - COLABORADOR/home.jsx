@@ -16,10 +16,10 @@ function home () {
                 ao sistema Agil
             </div>
         </div>
-        <div className='baixo'>
+        <div className='baixo_h'>
             <Link className='botao-MESA' to="/Inicio">MESA</Link>
-            <Link className='botao-MESA' to="/Inicio">CAIXA</Link>
-            <Link className='botao-MESA' to="/Inicio">CAIXA</Link>
+            <Link className='botao-MESA' to="/">CAIXA</Link>
+            <Link className='botao-MESA' to="/">CAIXA</Link>
         </div>
       </div>
     </div>
