@@ -19,7 +19,7 @@ function home () {
         <div className='baixo_h'>
             <Link className='botao-MESA' to="/Inicio">MESA</Link>
             <Link className='botao-MESA' to="/">CAIXA</Link>
-            <Link className='botao-MESA' to="/">CAIXA</Link>
+            <Link className='botao-MESA' to="/">COZINHA</Link>
         </div>
       </div>
     </div>

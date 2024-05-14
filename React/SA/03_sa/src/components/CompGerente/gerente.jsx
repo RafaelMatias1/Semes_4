@@ -20,10 +20,10 @@ function gerente () {
             <div className='cima_b'>
                 <Link className='botao-gerencia' to="/Inicio">MESA</Link>
                 <Link className='botao-gerencia' to="/Inicio">CAIXA</Link>
-                <Link className='botao-gerencia' to="/Inicio">CAIXA</Link>
+                <Link className='botao-gerencia' to="/Inicio">COZINHA</Link>
             </div>
             <div className='baixo_b'>
-                <Link className='botao-gerencia1' to="/Inicio">CAIXA</Link>
+                <Link className='botao-gerencia1' to="/Inicio">ADIMINISTRAÇÃO</Link>
             </div>
         </div>
       </div>
