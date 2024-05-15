@@ -3,17 +3,21 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { UsuariosContextProvider } from './Context/GlobalContext'
 
 function App() {
 
   return (
     <>
-      {/*<Navbar/>*/}
+      <UsuariosContextProvider>
+        
       <Header/>
 
       <Outlet/>
 
       <Footer/>
+
+      </UsuariosContextProvider>
     </>
   )
 }
